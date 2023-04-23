@@ -1,0 +1,10 @@
+In the present project, we focus on developing a game using computer graphics concepts for the movements of the
+different objects, collisions and three.js to model the objects in the environment. The project consists of two files, 
+one of which is interpreted by the browser (index.html) and the other (main.js) contains all the logic for creating the game.
+In this file we can find the "Three" classes (used to model the scene trees), the "Targets" class (used to model the 
+circular targets and the humans), the "Beast" class (used to model the beast , the arrows, the rails and the platform used 
+to move the crossbow) that are instantiated depending on the creation of the scene. The movement of the beast was made based 
+on events and the targets was based on a function that receives random values ​​within an interval defined by us and limited 
+by the existing bounding boxes at the ends of the arena (wall). Arrows are fired by pressing the "space" key, targets appear 
+by pressing the "M" key and keys "1", "2" and "3" show the scene in top, front and side views and the beast moves left and 
+right by pressing the left and right arrow keys.
